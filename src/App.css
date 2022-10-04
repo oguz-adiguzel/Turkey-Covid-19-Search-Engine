@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+.main{
+  height: 100vh;
+  background-image: url('https://www.bhmmedia.com/wp-content/uploads/2015/10/medical-wallpaper-.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.covid-info{
+  background-color: #3160a6;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row-dark{
+  background-color: rgba(27,20,100, 0.89);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.row-light{
+  background-color: rgba(38, 70, 129, 0.89);
 }
-
-.App-link {
-  color: #61dafb;
+.header{
+  background-image: url('https://covid19.saglik.gov.tr/assets/images/header-default.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-logo{
+  width: 80px;
+  height: 80px;
+}
+.header-title{
+  color: red;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.search{
+  border: none;
+  /* background-color: rgba(38, 70, 129, 0.89); */
+  /* color: white; */
+  transition: .5s;
+}
+.search:focus{
+  background-color: white;
+  scale: 1.1;
+  transition: .5s;
+  
 }
